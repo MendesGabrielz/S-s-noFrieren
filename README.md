@@ -1,2 +1,2 @@
-# S-s-noFrieren
+# Soso-no-Frieren
 Trabalho individual de SosonoFrieren
