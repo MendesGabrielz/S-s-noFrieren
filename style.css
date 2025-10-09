@@ -94,29 +94,3 @@ html {
 }
 
 .perso-direi {}
-
-.img-perso {
-
-    border: solid black 5px;
-    border-radius: 40%;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-    transform: transform 0.3s;
-
-    img {
-
-        width: 150px;
-        height: 150px;
-        margin: 0px;
-        object-fit: cover;
-
-    }
-}
-
-.img-perso:hover{
-
-    transform: scale(1.1);
-}
