@@ -61,9 +61,16 @@ html {
 }
 
 .img-corp-texto {
+
+    transition: transform 0.3s ease;
+
     img {
         width: 750px;
+        border-radius: 20px;
     }
+}
+.img-corp-texto:hover{
+    transform: scale(1.03);
 }
 
 .text-perso {
@@ -93,4 +100,92 @@ html {
     display: flex;
 }
 
-.perso-direi {}
+.perso-direi {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+.perso-direi h2 {
+
+    text-align: center;
+    font-family: "Alan Sans", sans-serif;
+}
+
+.perso-direi p{
+
+    font-family: "Alan Sans", sans-serif;
+    text-align: justify;
+}
+
+.perso-direi img {
+
+    transition: transform 0.3s ease;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+.img-perso {
+
+    border: solid black 5px;
+    border-radius: 40%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+
+}
+
+.imagem-perso {
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.imagem-perso-direi{
+
+    transition: transform 0.3s ease;
+}
+
+.imagem-perso-direi:hover{
+
+    transform: scale(1.02);
+}
+
+.fim {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: "Alan Sans", sans-serif;
+
+    a {
+
+        color: black;
+        text-decoration: none;
+    }
+
+    p{
+        margin: 0px;
+    }
+
+    img{
+        width: 40px;
+    }
+}
+
+.fim-a{
+
+    transition: transform 0.3s ease;
+}
+
+.fim-a:hover{
+
+    transform: scale(1.02);
+}
