@@ -21,5 +21,5 @@ function montarDiv(evento) {
   `;
 }
 
-// Chama o evento para funcionar
 passmous();
+
